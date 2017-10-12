@@ -1,7 +1,7 @@
 node('master') {
 
    stage 'Git Checkout'
-	 git 'https://github.com/mrdevtechnology/dryRun.git'
+	 git 'https://github.com/ansarpalakottal/testJob.git'
          echo 'checkout done'
    
    stage 'Ansible Playbook'
