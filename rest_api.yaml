@@ -9,7 +9,7 @@
       uri:
         url: https://18.216.19.92/api/v2/jobs/26/
         register: test
-        method: GET
+        method: POST
         user: admin
         password: ansible@123
         validate_certs: no
