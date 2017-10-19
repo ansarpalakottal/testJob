@@ -7,7 +7,7 @@
   tasks:
     - name: Invoke download Job ansar-template-ii
       uri:
-        url: https://18.216.19.92/api/v2/jobs/265/
+        url: https://18.216.19.92/api/v2/jobs/26/
         register: test
         method: GET
         user: admin
