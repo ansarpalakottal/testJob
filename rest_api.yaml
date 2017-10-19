@@ -7,9 +7,9 @@
   tasks:
     - name: Invoke download Job ansar-template-ii
       uri:
-        url: https://18.216.19.92/api/v2/job_templates/26/launch/
+        url: https://18.216.19.92/api/v2/jobs/265/
         register: test
-        method: POST
+        method: GET
         user: admin
         password: ansible@123
         validate_certs: no
