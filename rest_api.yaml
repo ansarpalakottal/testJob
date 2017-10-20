@@ -1,6 +1,6 @@
 ---
 - name: POST to Tower API
-  hosts: 18.216.19.92
+  hosts: webserver-ansar
   vars:
     job_template_id: 26
  
